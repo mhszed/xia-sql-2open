@@ -204,6 +204,9 @@ end! 强疑似 SQLi：ORDER BY 排序序列
 2. 打开 Burp Suite，点击顶部 `Extender` → `Extensions` → `Add`；
 3. 类型选择 `Java`，文件选择下载的 `xia_sql-3.3.jar`，点击 `Next`；
 4. 加载成功后，Burp 顶部会出现 `xia SQL` 标签页。
+<img width="2085" height="1155" alt="91bb05eb1949ac9e47350937f01fa8b8" src="https://github.com/user-attachments/assets/d91ea274-941e-4c69-bdc0-e803d9eaf677" />
+
+<img width="2102" height="1158" alt="8e2ed4fe3240ed4e7e3cc2b2a0f47f6b" src="https://github.com/user-attachments/assets/7c783aa1-5972-4c49-9451-24c50cc316a4" />
 
 ### 基本使用
 
@@ -220,6 +223,7 @@ end! 强疑似 SQLi：ORDER BY 排序序列
    - **左侧主表**：每次扫描的 URL、返回包长度和状态，状态列出现 `✔⚠`（高度可信）、`✔`（疑似）即有发现；
    - **右侧详情表**：点击主表某一行，展示该次扫描每个参数 × 每个 payload 的请求，"变化"列为检测结论（悬停可看完整内容）；
    - 下方 Request/Response 选项卡查看选中请求的原始报文。
+<img width="2880" height="1601" alt="311b44c38f856c4131a708fa11661bee" src="https://github.com/user-attachments/assets/20eb27ff-674d-4072-899b-5e11c3593c8e" />
 
 ## 编译方法
 
